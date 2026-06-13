@@ -32,4 +32,4 @@ Esta página apresenta alguns prints do projeto SYNC-TECH, mostrando as principa
 
 ## Vídeos YouTube
 
-![Vídeos YouTube](<screenshots/Vídeos (youtube).png>)
+![Vídeos YouTube](<screenshots/videos-youtube.png>)
