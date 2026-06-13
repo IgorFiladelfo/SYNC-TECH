@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 0.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FBF7EC;
+  color: #111111;
+  font-family: 'Archivo', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-mono {
+  font-family: 'Space Mono', monospace;
+}
+
+/* Estilo neo-brutalista usado em várias partes do projeto */
+.nb-border {
+  border: 3px solid #000;
+}
+
+.nb-shadow {
+  box-shadow: 6px 6px 0 0 #000;
+}
+
+.nb-shadow-sm {
+  box-shadow: 4px 4px 0 0 #000;
+}
+
+.nb-card {
+  border: 3px solid #000;
+  box-shadow: 6px 6px 0 0 #000;
+  background: #fff;
+}
+
+.nb-press {
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+}
+.nb-press:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 8px 8px 0 0 #000;
+}
+.nb-press:active {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0 0 #000;
+}
