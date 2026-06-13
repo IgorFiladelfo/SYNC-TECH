@@ -78,4 +78,10 @@ causa disso:
 - Cada navegador guarda os seus próprios dados.
 - Se limpar os dados do navegador, o progresso e o ranking somem.
 
+## Prints do sistema
+
+Os prints das principais telas do sistema podem ser visualizados no arquivo abaixo:
+
+[Ver prints do sistema](SCREENSHOTS.md)
+
 
